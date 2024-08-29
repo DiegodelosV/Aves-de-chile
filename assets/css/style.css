@@ -1,0 +1,28 @@
+body {
+    position: relative;
+}
+
+.menu {
+    position: sticky;
+    top: 1rem;
+}
+
+.menu-list a.is-active {
+    background-color: #00d1b2;
+    color: white;
+}
+
+.bird-item {
+    margin-bottom: 2rem;
+}
+
+.bird-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.bird-item a {
+    margin-top: 1rem;
+    display: block;
+}
